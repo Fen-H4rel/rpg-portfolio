@@ -11,18 +11,25 @@ export default class MainScene extends Phaser.Scene {
 		Player.preloadAssets(this);
 		this.load.image('tiles', 'assets/IceTileset.png')
 		this.load.tilemapTiledJSON('map', 'assets/map.json');
+		this.load.atlas('resources', 'assets/resources.png', 'assets/resources_atlas.json');
 	}
 
 	create() {
 		const map = this.make.tilemap({key: 'map'});
 		const tileset = map.addTilesetImage('IceTileset', 'tiles', 32, 32);
 		const layer1 = map.createLayer('Tile Layer 1', tileset, 0, 0)
-		const layer2 = map.createLayer('Tile Layer 2', tileset, 0, 0)
+		// const layer2 = map.createLayer('Tile Layer 2', tileset, 0, 0)
 		layer1.setCollisionByProperty({collides: true});
-		layer2.setCollisionByProperty({collides: true});
+		// layer2.setCollisionByProperty({collides: true});
 		this.matter.world.convertTilemapLayer(layer1);
-		this.matter.world.convertTilemapLayer(layer2);
+		// this.matter.world.convertTilemapLayer(layer2);
 
+		let tree = new Phaser.Physics.Matter.Sprite(this.matter.world, 50,50,'resources','tree');
+		let stone = new Phaser.Physics.Matter.Sprite(this.matter.world, 100,100,'resources','stone');
+		tree.setStatic(true);
+		stone.setStatic(true);
+		this.add.existing(tree);
+		this.add.existing(stone);
 
 		this.player = new Player({
 			scene: this,

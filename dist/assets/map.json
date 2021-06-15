@@ -4,10 +4,10 @@
  "layers":[
         {
          "compression":"",
-         "data":"KgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAABSAAAAUgAAAFIAAABSAAAAWQAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAACoAAAAqAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAAAqAAAAKgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAKgAAACoAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAACoAAAAqAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAAAqAAAAKgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAKgAAACoAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAACoAAAAqAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAAAqAAAAKgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAKgAAACoAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAACoAAAAqAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAAAqAAAAKgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAKgAAACoAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAACoAAAAqAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAABSAAAAUgAAAFIAAABSAAAAUgAAAFIAAAAqAAAAKgAAACoAAAAqAAAAKgAAAA==",
+         "data":"KgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABCAAAAQwAAAEQAAABXAAAAVwAAAFcAAABXAAAAVwAAACoAAAAqAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVgAAAFcAAABYAAAAVwAAAFcAAABXAAAAVwAAAFcAAAAqAAAAKgAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAGoAAABrAAAAbAAAAFcAAABXAAAAVwAAAFcAAABXAAAAKgAAACoAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAACoAAAAqAAAAVwAAAFcAAABXAAAAkwAAAJMAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAAAqAAAAKgAAAFcAAABXAAAAVwAAACsAAAArAAAAKwAAACsAAAArAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAKgAAACoAAABXAAAAVwAAAFcAAAArAAAAKwAAACsAAAArAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAACoAAAAqAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAAAqAAAAKgAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAAArAAAAKwAAACsAAABXAAAAKgAAACoAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAKwAAACsAAAArAAAAVwAAACoAAAAqAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAAFcAAABXAAAAVwAAACsAAAArAAAAKwAAAFcAAAAqAAAAKgAAAFcAAABXAAAAVwAAAFcAAABXAAAAawAAAGsAAABrAAAAVwAAAFcAAAArAAAAKwAAACsAAABXAAAAKgAAACoAAABXAAAAVwAAAFcAAABXAAAAWAAAACoAAAAqAAAAKgAAAFYAAABXAAAAVwAAAFcAAABXAAAAVwAAACoAAAAqAAAAVwAAAFcAAABXAAAAVwAAAFgAAAAqAAAAKgAAACoAAABWAAAAVwAAAFcAAABXAAAAVwAAAFcAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAACoAAAAqAAAAKgAAAA==",
          "encoding":"base64",
          "height":16,
-         "id":1,
+         "id":3,
          "name":"Tile Layer 1",
          "opacity":1,
          "type":"tilelayer",
@@ -15,22 +15,8 @@
          "width":16,
          "x":0,
          "y":0
-        }, 
-        {
-         "compression":"",
-         "data":"mAAAAJgAAACYAAAAmAAAAJgAAABEAAAAmAAAAJgAAACYAAAAQgAAAJgAAACYAAAAmAAAAJgAAACYAAAAmAAAAJgAAAAAAAAAAAAAAAAAAABSAAAAWQAAAEMAAABDAAAAQwAAAFoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJgAAACYAAAAAAAAAAEAAAAAAAAAUgAAAFcAAAAXAAAAjgAAAAEAAAApAAAAAAAAAJMAAACTAAAAkwAAAJMAAACYAAAAmAAAAAAAAAAVAAAAAAAAAAAAAAAAAAAAKQAAAFIAAAAVAAAAAAAAAAAAAACTAAAAAAAAAAAAAACTAAAAmAAAAJgAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAADAAAAAAAAABYAAAAAAAAAkwAAAAAAAAAAAAAAkwAAAJgAAACYAAAAAAAAABcAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAJMAAACTAAAAkwAAAJMAAAAAAAAAAAAAAJMAAACYAAAAmAAAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAAAAAACTAAAAAAAAAAAAAACTAAAAAAAAAAAAAACTAAAAmAAAAJgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAkwAAABYAAAAAAAAAkwAAAAAAAAAAAAAAkwAAAJgAAACYAAAAAAAAABUAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAJMAAAAAAAAAAAAAAJMAAACTAAAAkwAAAJMAAACYAAAAmAAAAAAAAAAAAAAAAAAAAAAAAAAXAAAAAAAAABYAAACTAAAAAAAAAAAAAAAAAAAAFwAAAAAAAAAAAAAAmAAAAJgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAkwAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAJgAAACYAAAAAAAAAAAAAAAVAAAAAQAAAAAAAAAAAAAAAAAAAJMAAAAAAAAAAAAAABUAAAAAAAAAFwAAAAAAAACYAAAAmAAAAAAAAAABAAAAAAAAABUAAAAAAAAAAAAAAAAAAACTAAAAFgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAmAAAAJgAAAAAAAAAFQAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAkwAAAAAAAAADAAAAAAAAABUAAAAAAAAAAAAAAJgAAACYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJMAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAACYAAAAmAAAACoAAAAqAAAAKgAAACoAAAApAAAAKQAAACkAAAArAAAAKQAAACkAAAAqAAAAKgAAACoAAAAqAAAAmAAAAA==",
-         "encoding":"base64",
-         "height":16,
-         "id":2,
-         "name":"Tile Layer 2",
-         "opacity":1,
-         "type":"tilelayer",
-         "visible":true,
-         "width":16,
-         "x":0,
-         "y":0
         }],
- "nextlayerid":3,
+ "nextlayerid":4,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
@@ -204,6 +190,40 @@
                 }, 
                 {
                  "id":65,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":2,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":15,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":-32,
+                             "x":31.82,
+                             "y":0.18
+                            }, 
+                            {
+                             "height":-17,
+                             "id":2,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":16,
+                             "x":0.0899999999999999,
+                             "y":32.18
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
                  "properties":[
                         {
                          "name":"collides",
@@ -244,6 +264,40 @@
                 }, 
                 {
                  "id":67,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":2,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":32,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":-15,
+                             "x":32.09,
+                             "y":0.0900000000000001
+                            }, 
+                            {
+                             "height":15,
+                             "id":2,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":17,
+                             "x":0.27,
+                             "y":0
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
                  "properties":[
                         {
                          "name":"collides",
@@ -253,6 +307,29 @@
                 }, 
                 {
                  "id":68,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":2,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":16,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":15,
+                             "x":16.91,
+                             "y":16.18
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
                  "properties":[
                         {
                          "name":"collides",
@@ -262,6 +339,29 @@
                 }, 
                 {
                  "id":69,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":2,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":15,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":-16,
+                             "x":16.27,
+                             "y":17
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
                  "properties":[
                         {
                          "name":"collides",
@@ -298,6 +398,29 @@
                 }, 
                 {
                  "id":85,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":2,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":32,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":15,
+                             "x":-0.27,
+                             "y":-0.18
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
                  "properties":[
                         {
                          "name":"collides",
@@ -307,6 +430,29 @@
                 }, 
                 {
                  "id":87,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":2,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":32,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":-15,
+                             "x":31.82,
+                             "y":0.0899999999999999
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
                  "properties":[
                         {
                          "name":"collides",
@@ -319,7 +465,6 @@
                  "objectgroup":
                     {
                      "draworder":"index",
-                     "id":2,
                      "name":"",
                      "objects":[
                             {
@@ -348,6 +493,29 @@
                 }, 
                 {
                  "id":89,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":2,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":15,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":15,
+                             "x":0.0899999999999999,
+                             "y":0.0899999999999999
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
                  "properties":[
                         {
                          "name":"collides",
@@ -375,6 +543,40 @@
                 }, 
                 {
                  "id":105,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":3,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":-15,
+                             "id":2,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":-32,
+                             "x":31.82,
+                             "y":32
+                            }, 
+                            {
+                             "height":17,
+                             "id":3,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":16,
+                             "x":0,
+                             "y":0.27
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
                  "properties":[
                         {
                          "name":"collides",
@@ -384,6 +586,29 @@
                 }, 
                 {
                  "id":106,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":2,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":-13.82,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":31,
+                             "x":0.55,
+                             "y":31.64
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
                  "properties":[
                         {
                          "name":"collides",
@@ -393,6 +618,40 @@
                 }, 
                 {
                  "id":107,
+                 "objectgroup":
+                    {
+                     "draworder":"index",
+                     "id":2,
+                     "name":"",
+                     "objects":[
+                            {
+                             "height":32,
+                             "id":1,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":-15,
+                             "x":31.64,
+                             "y":0.27
+                            }, 
+                            {
+                             "height":15,
+                             "id":2,
+                             "name":"",
+                             "rotation":0,
+                             "type":"",
+                             "visible":true,
+                             "width":17,
+                             "x":-0.18,
+                             "y":17
+                            }],
+                     "opacity":1,
+                     "type":"objectgroup",
+                     "visible":true,
+                     "x":0,
+                     "y":0
+                    },
                  "properties":[
                         {
                          "name":"collides",

@@ -14,7 +14,9 @@
     },
     "author": "Cristian Demkowicz",
     "license": "MIT",
-    "dependencies": {},
+    "dependencies": {
+        "phaser-matter-collision-plugin": "^0.10.2"
+    },
     "devDependencies": {
         "@rollup/plugin-replace": "^2.3.4",
         "phaser": "^3.50.0",
