@@ -3,6 +3,7 @@ import 'phaser';
 
 export default class MainScene extends Phaser.Scene {
 	player: Player;
+	map: any;
 	constructor() {
 		super("MainScene");
 	}
@@ -16,20 +17,12 @@ export default class MainScene extends Phaser.Scene {
 
 	create() {
 		const map = this.make.tilemap({key: 'map'});
+		this.map = map;
 		const tileset = map.addTilesetImage('IceTileset', 'tiles', 32, 32);
 		const layer1 = map.createLayer('Tile Layer 1', tileset, 0, 0)
-		// const layer2 = map.createLayer('Tile Layer 2', tileset, 0, 0)
 		layer1.setCollisionByProperty({collides: true});
-		// layer2.setCollisionByProperty({collides: true});
 		this.matter.world.convertTilemapLayer(layer1);
-		// this.matter.world.convertTilemapLayer(layer2);
-
-		let tree = new Phaser.Physics.Matter.Sprite(this.matter.world, 50,50,'resources','tree');
-		let stone = new Phaser.Physics.Matter.Sprite(this.matter.world, 100,100,'resources','stone');
-		tree.setStatic(true);
-		stone.setStatic(true);
-		this.add.existing(tree);
-		this.add.existing(stone);
+		this.addResources();
 
 		this.player = new Player({
 			scene: this,
@@ -50,6 +43,25 @@ export default class MainScene extends Phaser.Scene {
 			down: Phaser.Input.Keyboard.KeyCodes.S,
 			left: Phaser.Input.Keyboard.KeyCodes.A,
 			right: Phaser.Input.Keyboard.KeyCodes.D,
+		});
+	}
+
+
+	addResources() {
+		const resources = this.map.getObjectLayer('Resources');
+		resources.objects.forEach(resource => {
+			let resItem = new Phaser.Physics.Matter.Sprite(this.matter.world, resource.x,resource.y,'resources',resource.type);
+			let yOrigin = resource.properties.find(p => p.name == 'yOrigin').value;
+			resItem.x += resItem.width/2;
+			resItem.y -= resItem.height/2;
+			resItem.y = resItem.y + resItem.height * (yOrigin - 0.5);
+			// @ts-ignore: Property 'Matter' does not exist on type 'typeof Matter'.
+			const {Bodies} = Phaser.Physics.Matter.Matter;
+			let circleCollider = Bodies.circle(resItem.x, resItem.y,12, {isSensor:false, label: 'collider'});
+			resItem.setExistingBody(circleCollider);
+			resItem.setStatic(true);
+			resItem.setOrigin(0.5, yOrigin);
+			this.add.existing(resItem);
 		});
 	}
 
